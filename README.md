@@ -31,6 +31,10 @@ It's worth reminding: Choose whatever suits you better and consider your options
 
 6. [Dropbox](#dropbox)
 
+    6.1. [Clients](#clients)
+    
+    6.2. [Alternatives](#alternatives)
+
 7. [News Aggregators (Feedly, Flipboard, Twitter, etc)](#news-aggregators-feedly-flipboard-twitter-etc)
 
 
