@@ -61,7 +61,7 @@ Safari has a few built-in features that protect you from third-party trackers an
 ##### Recommended Extensions
 Sadly, there are not many good extensions available for Safari. Due to some API limitations, extensions like Ublock Origin, HTTPS Everywhere, Cookie AutoDelete and custom tweaks cannot be supported—but I told you, right? Safari is not the best of the options and you should only use it if you put convenience over greater protection.
 
-The only extension I have currently installed is [1Blocker](https://1blocker.com), it does a pretty good job at blocking ads, and in combination with something like a DNS Lever ad blocker (more info below), it's enough for most needs.
+The only extension I have currently installed is [1Blocker](https://1blocker.com), it does a very good job at blocking ads, and in combination with something like a DNS Lever ad blocker (more info below), it's enough for most needs.
 
 #### Bonus: Blocking Ads and Trackers on a DNS Level
 
@@ -69,7 +69,7 @@ This is something I really recommend you invest your money and time on. Why? Bec
 
 There are mainly 2 options I recommend:
 
-1. Buy a [Raspberry Pi](https://www.raspberrypi.org) if you don't have one already (you should, it's fun!) and install [Pi-Hole](https://pi-hole.net) on it. It's super easy and only requires a few commands to get it running. If you have a Mac, there's a quick and pretty good installation tutorial you can [watch here](https://invidio.us/watch?v=4RZ4ptuWAyw).
+1. Buy a [Raspberry Pi](https://www.raspberrypi.org) if you don't have one already (you should, it's fun!) and install [Pi-Hole](https://pi-hole.net) on it. It's super easy and only requires a few commands to get it running. If you have a Mac, there's a quick and reasonably easy-to-follow installation tutorial you can [watch here](https://invidio.us/watch?v=4RZ4ptuWAyw).
 2. Ok, you want to save the trouble of messing up with some code and only need a little more protection. In that case, you can replace your ISP DNS by [Adguard's](https://adguard.com/en/adguard-dns/overview.html). Adguard is a respectable service that has a solid reputation—but it's worth saying you'll be trusting a third-party here, and besides, it doesn't offer the level of customization you get from Pi-Hole, which runs in your own network, under your control.
 
 ### VPN
@@ -80,7 +80,7 @@ About your ISP, they might very well be your worst enemy depending on where you 
 
 Choosing a good VPN is all about trust. Although some of them are audited, you cannot be 100% sure that they will not log your activity, even if they explicitly say they won't. And at the end of the day, you'll be basically trading a party (your ISP) by another (a VPN service), and it's up to you to decide who you trust the most and what you're trying to protect from.
 
-If you happen to choose the VPN route, **DO NEVER use a free VPN service**. The chances they'll log your activity and sell you on are also pretty big. In fact, if you were to use a free VPN, I'd just say you'd be better off not using anything.
+If you happen to choose the VPN route, **DO NEVER use a free VPN service**. The chances they'll log your activity and sell you on are also big. In fact, if you were to use a free VPN, I'd just say you'd be better off not using anything.
 
 The following are respectable services that have a solid reputation:
 
@@ -94,7 +94,7 @@ Regardless, I suggest you take a good look at [That One Privacy Site](https://th
 I think this is one of the easiest habit changes, and takes very little effort to get used to. There are many alternatives out there but my two favorites are:
 
 - [DuckDuckGo](https://duckduckgo.com/): Integrates with most desktop and mobile browsers, support shortcuts (a.k.a. [!Bang](https://duckduckgo.com/bang)), unbiased results outside the "Filter Bubble".
-- [Startpage](https://startpage.com/): A pretty solid alternative if you can't get used to DuckDuckGo's results. Startmail displays Google Search results without letting them build a profile out of your queries. Bonus points: They're based in Europe, where privacy laws are more friendly.
+- [Startpage](https://startpage.com/): A solid alternative if you can't get used to DuckDuckGo's results. Startmail displays Google Search results without letting them build a profile out of your queries. Bonus points: They're based in Europe, where privacy laws are more friendly.
 
 ### YouTube
 
