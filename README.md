@@ -29,7 +29,7 @@ It's worth saying that most of the following apps, devices and services are eith
 
 6. [Dropbox](#dropbox)
 
-7. [News Aggregators (Feedly, Flipboard, Twitter, etc)(#news-aggregators-feedly-flipboard-twitter-etc)
+7. [News Aggregators (Feedly, Flipboard, Twitter, etc)](#news-aggregators-feedly-flipboard-twitter-etc)
 
 
 ### Google Chrome
