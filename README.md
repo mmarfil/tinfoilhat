@@ -142,7 +142,7 @@ This is a complicated topic depending on what you do for a living, as your compa
 
 ### News Aggregators (Feedly, Flipboard, Twitter, etc)
 
-I know it's too tempting to use any of these services as a way to consume your news, but they're generally aggressive at building a profile based on what you click and interact to. Aside from that, as you know, these apps are pretty good at keeping you on a "Filter Bubble" by sorting entries by whatever machine learning thinks you'll like better. A good old-fashioned RSS service is usually a fantastic antidote to that.
+I know it's too tempting to use any of these services as a way to consume your news, but they're generally aggressive at building a profile based on what you click and interact to. Aside from that, these apps are pretty good at keeping you on a "Filter Bubble" by sorting entries by whatever the machine learning thinks you'll like better. A good old-fashioned RSS service is usually a fantastic antidote to that.
 
 - [Feedbin](https://feedbin.com): You can subscribe not only to RSS feeds, but also Twitter accounts and email newsletters. On top of that, there are options to set up mute filters to mark entries as read automatically (_ahem_ Trump, Kardashian, Bieber, Pancakes). Feedbin works with a bunch of mobile and desktop apps, and their web interface is very well designed too.
 - [Tiny Tiny RSS](https://tt-rss.org): It's also a solid alternative if you want to run your own RSS aggregator. It supports the Fever API, making it possible to use with many third party apps like [Unread](https://www.goldenhillsoftware.com/unread/) and [Reeder](http://reederapp.com) for iOS.
