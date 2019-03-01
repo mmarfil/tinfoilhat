@@ -1,3 +1,5 @@
+![Header Image](header_image.jpg)
+
 # The Tin-Foil-Hat List
 ###### A list of privacy respecting alternatives to apps and services that track you around.
 
