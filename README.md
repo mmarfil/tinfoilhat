@@ -1,13 +1,13 @@
 ![Header Image](header_image.jpg)
 
 # The Tin-Foil-Hat List
-###### A list of privacy respecting alternatives to apps and services that track you around.
+###### A list of privacy-respecting alternatives to apps and services that track you around.
 
 First and foremost, understand that the point of this list is to _improve_ your privacy, and _not_ to make you "disappear" online. For a higher threat model, you should look elsewhere, like: [privacytools.io](https://privacytools.io) or [/r/privacy](https://reddit.com/r/privacy) to name a few.
 
 So, as you're likely aware, tech giants like Google, Facebook, Amazon and many others follow you around the web and use your data to profile, lock you into a "Filter Bubble", and worst of all, sell all your moves to advertisers and other third-parties.
 
-So in this list, you'll find a few privacy respecting alternatives to services, apps and devices I use the most. Most of them are open source, or at the very least companies that have my _personal_ trust.
+In the following list, you'll find a few privacy-respecting alternatives to services, apps and devices I use the most. Most of them are open source, or at the very least companies that have my _personal_ trust.
 
 It's worth reminding: Choose whatever suits you better and consider your options, because **there’s no warranty here. If it breaks, you get to keep both parts.** 😉
 
