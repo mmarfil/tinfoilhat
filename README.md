@@ -38,7 +38,7 @@ It's worth reminding: Choose whatever suits you better and consider your options
 7. [News Aggregators (Feedly, Flipboard, Twitter, etc)](#news-aggregators-feedly-flipboard-twitter-etc)
 
 
-### Google Chrome
+### Google Chrome 
 
 #### [Mozilla Firefox →](https://www.mozilla.org)
 With a few tweaks and extensions, Firefox is known as one of the most secure web browsers. 
