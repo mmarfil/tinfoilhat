@@ -64,7 +64,7 @@ Brave is built on top of Chromium, so it supports extensions too. You should be 
 #### [Apple Safari →](https://www.apple.com/safari/)
 Certainly not one of the best options, but it's a browser I use often because well… convenience? Anyway, Apple has been taking some important steps towards protecting users privacy lately, and more importantly, they're in business of getting your money, not selling your data (until proven wrong!).
 
-With Safari 11, Apple introduced a new featured called Inteligent Tracking Protection which prevents cross-site tracking and browser fingerprinting. You can read more about it [here](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). It's pretty neat how it works.
+With Safari 11, Apple introduced a new feature called Inteligent Tracking Protection which prevents cross-site tracking and browser fingerprinting. You can read more about it [here](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). It's pretty neat how it works.
 
 ##### Recommended Extensions
 Sadly, there are not many good extensions available for Safari. Due to some API limitations, extensions like uBlock Origin, HTTPS Everywhere, Cookie AutoDelete and custom tweaks cannot be supported—but I told you, right? Safari is not the best of the options and you should only use it if you'd rather convenience over greater protection.
