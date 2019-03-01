@@ -103,7 +103,7 @@ For a comprehensive list of other VPN services, take a good look at [That One Pr
 
 There are many alternatives out there but my two favorites are:
 
-- [DuckDuckGo](https://duckduckgo.com/): Integrates with most desktop and mobile browsers, super very handy shortcuts support (a.k.a. [!Bang](https://duckduckgo.com/bang)), and best of all, you get unbiased results outside the "Filter Bubble" since they don't keep records of your past searches.
+- [DuckDuckGo](https://duckduckgo.com/): Integrates with most desktop and mobile browsers, very handy shortcuts support (a.k.a. [!Bang](https://duckduckgo.com/bang)), and best of all, you get unbiased results outside the "Filter Bubble" since they don't keep records of your past searches.
 - [Startpage](https://startpage.com/): A solid alternative too if you can't get used to DuckDuckGo's results. Startmail displays Google Search results but act as a middle-man between you and Google, which means the latter cannot directly interact with you. Bonus points: They're based in Europe, where privacy laws are taken more seriously.
 
 ### YouTube
