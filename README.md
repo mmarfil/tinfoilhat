@@ -3,9 +3,9 @@
 # The Tin-Foil-Hat List
 ###### A list of privacy-respecting alternatives to apps and services that track you around.
 
-First and foremost, understand that the point of this list is to _improve_ your privacy, and _not_ to make you "disappear" online. For a higher threat model, you should look elsewhere, like: [privacytools.io](https://privacytools.io) or [/r/privacy](https://reddit.com/r/privacy) to name a few.
+First and foremost, understand that the point of this list is to improve your privacy, and _not_ to make you "disappear" online. If you're exposed to a higher threat model, you should look elsewhere, like: [privacytools.io](https://privacytools.io) or [/r/privacy](https://reddit.com/r/privacy) to name a few.
 
-So, as you're likely aware, tech giants like Google, Facebook, Amazon and many others follow you around the web and use your data to profile, lock you into a "Filter Bubble", and worst of all, sell all your moves to advertisers and other third-parties.
+Anyway, as you're likely aware, tech giants like Google, Facebook, Amazon and many others follow you around the web and use your data to profile, lock you into a "Filter Bubble", and worst of all, sell all your moves to advertisers and other third-parties.
 
 In the following list, you'll find a few privacy-respecting alternatives to services, apps and devices I use the most. Most of them are open source, or at the very least companies that have my _personal_ trust.
 
@@ -43,7 +43,7 @@ It's worth reminding: Choose whatever suits you better and consider your options
 ### Google Chrome 
 
 #### [Mozilla Firefox →](https://www.mozilla.org)
-With a few tweaks and extensions, Firefox is known as one of the most secure web browsers. 
+With a few tweaks and extensions, Firefox is known as one of the most secure web browsers.
 
 ##### Recommended Extensions and Tweaks
 
@@ -62,14 +62,14 @@ Brave automatically block ads and trackers, has built-in support for HTTPS Every
 Brave is built on top of Chromium, so it supports extensions too. You should be able to find some of the extensions—or at least good alternatives to the ones I listed in the [Mozilla Firefox](#mozilla-firefox-) section.
 
 #### [Apple Safari →](https://www.apple.com/safari/)
-Not the best of the options, but one I use often between Apple devices (because well… convenience?). Apple has been taking some interesting steps towards protecting users privacy, and more importantly, they're in business of getting your money, not selling your data (until proved wrong!).
+Certainly not one of the best options, but it's a browser I use often because well… convenience? Anyway, Apple has been taking some important steps towards protecting users privacy lately, and more importantly, they're in business of getting your money, not selling your data (until proven wrong!).
 
-Safari has a few built-in features that protect you from third-party trackers and fingerprinting—it's called Intelligent Tracking Protection. You can read more about it [here](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/).
+With Safari 11, Apple introduced a new featured called Inteligent Tracking Protection which prevents cross-site tracking and browser fingerprinting. You can read more about it [here](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). It's pretty neat how it works.
 
 ##### Recommended Extensions
 Sadly, there are not many good extensions available for Safari. Due to some API limitations, extensions like uBlock Origin, HTTPS Everywhere, Cookie AutoDelete and custom tweaks cannot be supported—but I told you, right? Safari is not the best of the options and you should only use it if you'd rather convenience over greater protection.
 
-The only extension I have currently installed is [1Blocker](https://1blocker.com), it does a very good job at blocking ads, and in combination with DNS level ad blocking (more info below), it should be enough for most needs.
+The only extension I have currently installed is [1Blocker](https://1blocker.com), it does a very good job at blocking ads, and in combination with DNS level ad blocking (more info below), it should be enough for most of your needs.
 
 #### Bonus: DNS Level Ad Blocking
 
@@ -77,8 +77,8 @@ This is something I really recommend you invest your money and time on. Why? Bec
 
 There are mainly 2 options I recommend:
 
-1. Buy a [Raspberry Pi](https://www.raspberrypi.org) if you don't have one already (you should, it's fun!) and install [Pi-Hole](https://pi-hole.net) on it. It only requires a few commands to get it running. If you have a Mac, there's a quick and reasonably easy-to-follow installation tutorial you can [watch here](https://invidio.us/watch?v=4RZ4ptuWAyw).
-2. Nope? Ok, you want to save the trouble of messing up with some code and only need a little more protection. In that case, you can replace your ISP DNS by [Adguard](https://adguard.com/en/adguard-dns/overview.html)'s. Adguard is a respectable service that has a solid reputation—but it's worth saying you'll be trusting a third-party here, and besides, it doesn't offer the level of customization you get from Pi-Hole, which runs in your own network, under your control.
+1. Buy a [Raspberry Pi](https://www.raspberrypi.org) if you don't have one already laying around and install [Pi-Hole](https://pi-hole.net) on it. It only requires a few commands to get it running. If you have a Mac, there's a quick and reasonably easy-to-follow installation tutorial you can [watch here](https://invidio.us/watch?v=4RZ4ptuWAyw).
+2. Nope? Ok, you want to save the trouble of messing up with some code and only need a little more protection. In that case, you can replace your ISP DNS by [Adguard](https://adguard.com/en/adguard-dns/overview.html)'s. Adguard is a respectable service that has a solid reputation—but it goes without saying you'll be trusting a third-party here, and besides, it will not offer the same level of customization you get from Pi-Hole, which runs in your own network, under your control.
 
 ### VPN
 
@@ -86,31 +86,31 @@ Even after setting up some ad blockers, extensions and taking the other privacy 
 
 Though, about your ISP, they might very well be your worst enemy depending on where you live: They know all yours steps and many also sell your stuff to advertisers and who knows what else. For instance, this is a common and regulated practice in the U.S. Go figure…
 
-That's where a good VPN comes in for help. VPNs are mainly used to circumvent geo-restrictions and censorship, but another benefit of using them is that you'll be assigned a shared IP, so the websites you visit cannot see your real and private IP. By doing that, profiling you becomes significantly harder.
+And that's where a good VPN comes in for help. VPNs are mainly used to circumvent geo-restrictions and censorship, but another benefit of using them is that you'll be assigned a shared IP, so the websites you visit cannot see your real and private IP. By doing that, profiling you becomes significantly harder.
 
-Choosing a good VPN is _all_ about trust. Although some of them are audited, you cannot be 100% sure that they will not log your activity, even if they explicitly say they won't. And at the end of the day, you'll be basically trading a party (your ISP) by another (a VPN service), and it's up to you to decide who you trust the most and what you're trying to protect yourself from.
+Choosing a good VPN is _all_ about trust. Although some of them are audited, you cannot be 100% sure that they will not log your activity, even if they explicitly say they won't. And at the end of the day, you'll be basically trading a party (your ISP) by another (a VPN service)—it's up to you to decide who you trust the most and what you're trying to protect yourself from.
 
-One very valuable advice: **DO NEVER use a free VPN service**. The chances they will use your data the way it pleases is higher than you can imagine. In fact, if you were to use a free VPN, I'd just say you'd be better off not using anything.
+One very valuable advice: **DO NEVER use a free VPN service**. The chances they will mine your data the way it pleases is higher than you can imagine. In fact, if you were to use a free VPN, I'd just say you'd be better off not using anything.
 
-The following are respectable services that have a solid reputation:
+The following are considered respectable services that have a solid reputation:
 
-- [Mullvad](http://mullvad.net): All you need is account number and nothing else. Log free, several payment options. 
-- [ProtonVPN](http://protonvpn.com): Built with the support of Protonmail team.
+- [Mullvad](http://mullvad.net): You don't even need to create an account with them, all you'll get is an account number and nothing else. They claim not to log your activity and offer several payment options. 
+- [ProtonVPN](http://protonvpn.com): Built by the Protonmail team. Highly recommended too.
 
 For a comprehensive list of other VPN services, take a good look at [That One Privacy Site](https://thatoneprivacysite.net).
 
 ### Google Search
 
-I think this is one of the easiest habit changes, and takes very little effort to get used to. There are many alternatives out there but my two favorites are:
+There are many alternatives out there but my two favorites are:
 
-- [DuckDuckGo](https://duckduckgo.com/): Integrates with most desktop and mobile browsers, they offer some very handy shortcuts support (a.k.a. [!Bang](https://duckduckgo.com/bang)), and you get unbiased results outside the "Filter Bubble" since they don't keep a records of your past searches.
-- [Startpage](https://startpage.com/): A solid alternative if you can't get used to DuckDuckGo's results. Startmail displays Google Search results but act as a middle-man between you and Google, which means the latter cannot directly interact with you. Bonus points: They're based in Europe, where privacy laws are taken more seriously.
+- [DuckDuckGo](https://duckduckgo.com/): Integrates with most desktop and mobile browsers, super very handy shortcuts support (a.k.a. [!Bang](https://duckduckgo.com/bang)), and best of all, you get unbiased results outside the "Filter Bubble" since they don't keep records of your past searches.
+- [Startpage](https://startpage.com/): A solid alternative too if you can't get used to DuckDuckGo's results. Startmail displays Google Search results but act as a middle-man between you and Google, which means the latter cannot directly interact with you. Bonus points: They're based in Europe, where privacy laws are taken more seriously.
 
 ### YouTube
 
-Youtube is a tricky one to be replaced, and its alternatives are not really great. Still, there's a way to a improve things a bit by using a third-party client.
+Youtube is a tricky one to be replaced, and its alternatives are not great. Still, there's a way to a improve things a bit by using a third-party client.
 
-[Invidio.us](https://invidio.us) is an open source front-end for YouTube with playlists support, ability to download videos or audios, and no trackers  (mostly) or ads. I say mostly because Google will still log your IP address while watching a video, since the videos come from their server.
+[Invidio.us](https://invidio.us) is an open source front-end for YouTube with playlists support, ability to download the videos, and no ads or trackers (mostly). I say mostly because Google will still log your IP address while watching a video, since the videos come from their server.
 
 I also suggest you install the [Invidious Redirect](https://addons.mozilla.org/en-US/firefox/addon/hooktube-redirect/?src=search) extension so you can open YouTube links straight in Invidio.us. On iOS, you can use this [Open in Invidious](https://www.icloud.com/shortcuts/a78847c422804045b391cc3f33b97ee6) shortcut I've put together.
 
@@ -137,12 +137,12 @@ This is a complicated topic depending on what you do for a living, as your compa
 
 #### Alternatives
 
-- [OwnCloud](https://owncloud.org): A full-featured Dropbox replacement with a handful number of extensions to install. Your files are end-to-end encrypted, there's support for CalDav/CardDav sync—which you can use to sync your Contacts and Calendars to any of your devices, and you can even run your server locally.
+- [OwnCloud](https://owncloud.org): A full-featured Dropbox replacement with a handful number of extensions to install. Your files are end-to-end encrypted, there's support for CalDav/CardDav sync, so you can sync your Contacts and Calendars to any of your devices, and even run your server locally.
 - [Syncthing](https://syncthing.net): If all you need is a simple way to sync files between devices or colleagues, this is a very lightweight solution that I couldn't recommend enough.
 
 ### News Aggregators (Feedly, Flipboard, Twitter, etc)
 
 I know it's too tempting to use any of these services as a way to consume your news, but they're generally aggressive at building a profile based on what you click and interact to. Aside from that, these apps are pretty good at keeping you on a "Filter Bubble" by sorting entries by whatever the machine learning thinks you'll like better. A good old-fashioned RSS service is usually a fantastic antidote to that.
 
-- [Feedbin](https://feedbin.com): You can subscribe not only to RSS feeds, but also Twitter accounts and email newsletters. On top of that, there are options to set up mute filters to mark entries as read automatically (_ahem_ Trump, Kardashian, Bieber, Pancakes). Feedbin works with a bunch of mobile and desktop apps, and their web interface is very well designed too.
+- [Feedbin](https://feedbin.com): You can subscribe not only to RSS feeds, but also Twitter accounts and email newsletters. On top of that, there are options to set up mute filters to mark entries as read automatically (_ahem_ Trump, Kardashian, Bieber, Pancakes?). Feedbin works with a bunch of mobile and desktop apps, and their web interface is very well designed too.
 - [Tiny Tiny RSS](https://tt-rss.org): It's also a solid alternative if you want to run your own RSS aggregator. It supports the Fever API, making it possible to use with many third party apps like [Unread](https://www.goldenhillsoftware.com/unread/) and [Reeder](http://reederapp.com) for iOS.
