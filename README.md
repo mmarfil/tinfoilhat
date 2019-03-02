@@ -67,9 +67,9 @@ Certainly not one of the best options, but it's a browser I use often because we
 With Safari 11, Apple introduced a new feature called Inteligent Tracking Protection which prevents cross-site tracking and browser fingerprinting. You can read more about it [here](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). It's pretty neat how it works.
 
 ##### Recommended Extensions
-Sadly, there are not many good extensions available for Safari. Due to some API limitations, extensions like uBlock Origin, HTTPS Everywhere, Cookie AutoDelete and custom tweaks cannot be supported—but I told you, right? Safari is not the best of the options and you should only use it if you'd rather convenience over greater protection.
+Sadly, there are not many good extensions available for Safari. Due to some API limitations, extensions like uBlock Origin, HTTPS Everywhere, Cookie AutoDelete and custom tweaks cannot be supported—but I told you, right? Safari is not the best of the options and you should only use it if you'd rather a little more convenience over greater protection.
 
-The only extension I have currently installed is [1Blocker](https://1blocker.com), it does a very good job at blocking ads, and in combination with DNS level ad blocking (more info below), it should be enough for most of your needs.
+The only extension I have currently installed is [1Blocker](https://1blocker.com), it does a very good job at blocking ads, and in combination with DNS level ad blocking (more info below), it should be enough for most needs.
 
 #### Bonus: DNS Level Ad Blocking
 
@@ -103,22 +103,22 @@ For a comprehensive list of other VPN services, take a good look at [That One Pr
 
 There are many alternatives out there but my two favorites are:
 
-- [DuckDuckGo](https://duckduckgo.com/): Integrates with most desktop and mobile browsers, very handy shortcuts support (a.k.a. [!Bang](https://duckduckgo.com/bang)), and best of all, you get unbiased results outside the "Filter Bubble" since they don't keep records of your past searches.
+- [DuckDuckGo](https://duckduckgo.com/): Integrates with most desktop and mobile browsers, offers some very handy shortcuts (a.k.a. [!Bang](https://duckduckgo.com/bang)), and best of all, you get unbiased results outside the "Filter Bubble" since they don't keep records of your past searches.
 - [Startpage](https://startpage.com/): A solid alternative too if you can't get used to DuckDuckGo's results. Startmail displays Google Search results but act as a middle-man between you and Google, which means the latter cannot directly interact with you. Bonus points: They're based in Europe, where privacy laws are taken more seriously.
 
 ### YouTube
 
 Youtube is a tricky one to be replaced, and its alternatives are not great. Still, there's a way to a improve things a bit by using a third-party client.
 
-[Invidio.us](https://invidio.us) is an open source front-end for YouTube with playlists support, ability to download the videos, and no ads or trackers (mostly). I say mostly because Google will still log your IP address while watching a video, since the videos come from their server.
+[Invidio.us](https://invidio.us) is an open source front-end to YouTube with playlists support, ability to download videos, and no ads or trackers (mostly). I say mostly because Google will still log your IP address while you watch a video, since they will still come from their server.
 
-I also suggest you install the [Invidious Redirect](https://addons.mozilla.org/en-US/firefox/addon/hooktube-redirect/?src=search) extension so you can open YouTube links straight in Invidio.us. On iOS, you can use this [Open in Invidious](https://www.icloud.com/shortcuts/a78847c422804045b391cc3f33b97ee6) shortcut I've put together.
+I also suggest you to install the [Invidious Redirect](https://addons.mozilla.org/en-US/firefox/addon/hooktube-redirect/?src=search) extension so you can open YouTube links directly in Invidio.us. On iOS, you can use this [Open in Invidious](https://www.icloud.com/shortcuts/a78847c422804045b391cc3f33b97ee6) shortcut I've put together.
 
 ### Gmail
 
-If you asked me 6 months ago, I'd blindly suggest [Fastmail](https://fastmail.com) as it's the most user friendly email provider you can find while migrating from Gmail but… a few months ago Australia approved [this bill](https://www.scmp.com/news/asia/australasia/article/2176759/australia-has-become-first-western-country-pass-bill-forcing) that allows the government to demand tech companies to create a back door to users’ data, so yeah… No-no.
+If you asked me 6 months ago, I'd blindly suggest [Fastmail](https://fastmail.com) as it's the most user friendly email provider you can find while compared to Gmail but… a few months ago Australia approved [this bill](https://www.scmp.com/news/asia/australasia/article/2176759/australia-has-become-first-western-country-pass-bill-forcing) that allows the government to demand tech companies to create a back door to users’ data, so yeah… No-no.
 
-Thankfully, there are many alternatives but I'm not going through each of the following services because it really depends on what exactly you need feature-wise and the level of security you're looking for (as secure as an email can be anyway). Comparing its features and limitations is my best advice. E.g. Some providers support the IMAP protocol, others you have to stick to their own apps for enhanced security; Some you have stick to their domain names, and others you can use your own.
+Thankfully, there are many alternatives but I'm not going through each of the following services because it really depends on what exactly you need feature-wise and the level of security you're looking for (as secure as an email can be anyway). Comparing features and limitations is my best advice here. E.g. Some providers support the IMAP protocol, others you have to stick to their own apps for enhanced security; Some you have to stick to their domain names, and others you can use your own.
 
 - [Protonmail →](https://protonmail.com)
 - [Tutanota →](https://tutanota.com)
@@ -137,12 +137,12 @@ This is a complicated topic depending on what you do for a living, as your compa
 
 #### Alternatives
 
-- [OwnCloud](https://owncloud.org): A full-featured Dropbox replacement with a handful number of extensions to install. Your files are end-to-end encrypted, there's support for CalDav/CardDav sync, so you can sync your Contacts and Calendars to any of your devices, and even run your server locally.
+- [OwnCloud](https://owncloud.org): A full-featured Dropbox replacement with a handful number of extensions to install. Your files are end-to-end encrypted, they support for CalDav/CardDav, so you can sync your Contacts and Calendars to any of your devices, and even run your server locally.
 - [Syncthing](https://syncthing.net): If all you need is a simple way to sync files between devices or colleagues, this is a very lightweight solution that I couldn't recommend enough.
 
 ### News Aggregators (Feedly, Flipboard, Twitter, etc)
 
 I know it's too tempting to use any of these services as a way to consume your news, but they're generally aggressive at building a profile based on what you click and interact to. Aside from that, these apps are pretty good at keeping you on a "Filter Bubble" by sorting entries by whatever the machine learning thinks you'll like better. A good old-fashioned RSS service is usually a fantastic antidote to that.
 
-- [Feedbin](https://feedbin.com): You can subscribe not only to RSS feeds, but also Twitter accounts and email newsletters. On top of that, there are options to set up mute filters based on keywords to mark entries as read automatically (_ahem_ Trump, Kardashian, Bieber, Pancakes?). Feedbin works with a bunch of mobile and desktop apps, and their web interface is very well designed too.
+- [Feedbin](https://feedbin.com): You can subscribe not only to RSS feeds, but also Twitter accounts and email newsletters. On top of that, there are options to set up mute filters based on keywords, so matched entries will be automatically marked as read (_ahem_ Trump, Kardashian, Bieber, Pancakes?). Feedbin works with a bunch of mobile and desktop apps, and their web interface is very well designed too.
 - [Tiny Tiny RSS](https://tt-rss.org): It's also a solid alternative if you want to run your own RSS aggregator. It supports the Fever API, making it possible to use with many third party apps like [Unread](https://www.goldenhillsoftware.com/unread/) and [Reeder](http://reederapp.com) for iOS.
