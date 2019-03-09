@@ -23,21 +23,23 @@ It's worth reminding: Choose whatever suits you better and consider your options
     
     1.4. [DNS Level ad blocking](#bonus-dns-level-ad-blocking)
     
-2. [VPN](#vpn)
-
-3. [Google Search](#google-search)
+2. [DNS Resolver](#dns-resolver)
     
-4. [YouTube](#youtube)
+3. [VPN](#vpn)
 
-5. [Gmail](#gmail)
-
-6. [Dropbox](#dropbox)
-
-    6.1. [Clients](#clients)
+4. [Google Search](#google-search)
     
-    6.2. [Alternatives](#alternatives)
+5. [YouTube](#youtube)
 
-7. [News Aggregators (Feedly, Flipboard, Twitter, etc)](#news-aggregators-feedly-flipboard-twitter-etc)
+6. [Gmail](#gmail)
+
+7. [Dropbox](#dropbox)
+
+    7.1. [Clients](#clients)
+    
+    7.2. [Alternatives](#alternatives)
+
+8. [News Aggregators (Feedly, Flipboard, Twitter, etc)](#news-aggregators-feedly-flipboard-twitter-etc)
 
 
 ### Google Chrome 
@@ -79,6 +81,29 @@ There are mainly 2 options I recommend:
 
 1. Buy a [Raspberry Pi](https://www.raspberrypi.org) if you don't have one already laying around and install [Pi-Hole](https://pi-hole.net) on it. It only requires a few commands to get it running. If you have a Mac, there's a quick and reasonably easy-to-follow installation tutorial you can [watch here](https://invidio.us/watch?v=4RZ4ptuWAyw).
 2. Nope? Ok, you want to save the trouble of messing up with some code and only need a little more protection. In that case, you can replace your ISP DNS by [Adguard](https://adguard.com/en/adguard-dns/overview.html)'s. Adguard is a respectable service that has a solid reputation—but it goes without saying you'll be trusting a third-party here, and besides, it will not offer the same level of customization you get from Pi-Hole, which runs in your own network, under your control.
+
+### DNS Resolver
+
+From Pi-hole's documentation:
+
+> Recently, more and more small (and not so small) DNS upstream providers have appeared on the market, advertising free and private DNS service, but how can you know that they keep their promises? Right, you can't.
+>
+> Furthermore, from the point of an attacker, the DNS servers of larger providers are very worthwhile targets, as they only need to poison one DNS server, but millions of users might be affected. Instead of your bank's actual IP address, you could be sent to a phishing site hosted on some island. This scenario has already happened and it isn't unlikely to happen again...
+>
+> When you operate your own (tiny) recursive DNS server, then the likeliness of getting affected by such an attack is greatly reduced.
+
+Basically, when you type a URL in your browser (e.g. `example.com`) and then hit return, your DNS resolver will essentially try to figure out a few things:
+
+- Who is handling `.com`?
+  - The root server answers with a referral to the TLD servers for `.com`.
+- Then, your recursive server will send a query to one of the TLD DNS servers for `.com` and ask: Who is handling `example.com`?
+  - From there, the authoritative server will answer with the IP address of the domain `example.com`.
+  
+All of this happens in just a fraction of a second.
+
+With [Unbound](http://unbound.net), you can run your own validating, recursive, and caching DNS resolver locally in your [Raspberry Pi](https://www.raspberrypi.org), and alongside [Pi-Hole](https://pi-hole.net). It's a great alternative to your ISP or a third-party resolver like Cloudflare's `1.1.1.1`.  
+
+- [Installation guide →](https://docs.pi-hole.net/guides/unbound/)
 
 ### VPN
 
